@@ -40,8 +40,8 @@ class VRControllerSwift : NSObject, VRControllerProtocol {
     var subjectOrientation = true
     var orientationPositions : [Position] = [
         Position(2, 5, -1.6, -10), // Right close
-//        Position(3, -12, -1.6, -26), // left far
-//        Position(1, 0, -1.6, -5), // Center close
+        Position(3, -12, -1.6, -26), // left far
+        Position(1, 0, -1.6, -5), // Center close
     ]
     
     var conePositions : [Position] = [
@@ -51,32 +51,32 @@ class VRControllerSwift : NSObject, VRControllerProtocol {
         //
         
         Position(1, -1.75, -1.6, -22.57),
-//        Position(2, 1.75, -1.6, -22.57),
-//
-//        Position(3, -3.5, -1.6, -20.82),
-//        Position(4, 0, -1.6, -20.82),
-//        Position(5, 3.5, -1.6, -20.82),
-//
-//        Position(6, -5.25, -1.6, -19.07),
-//        Position(7, -1.75, -1.6, -19.07),
-//        Position(8, 1.75, -1.6, -19.07),
-//        Position(9, 5.25, -1.6, -19.07),
-//
-//        Position(10, -3.5, -1.6, -17.32),
-//        Position(11, 0, -1.6, -17.32),
-//        Position(12, 3.5, -1.6, -17.32),
-//
-//        Position(13, -5.25, -1.6, -15.57),
-//        Position(14, -1.75, -1.6, -15.57),
-//        Position(15, 1.75, -1.6, -15.57),
-//        Position(16, 5.25, -1.6, -15.57),
-//
-//        Position(17, -3.5, -1.6, -13.82),
-//        Position(18, 0, -1.6, -13.82),
-//        Position(19, 3.5, -1.6, -13.82),
-//
-//        Position(20, -1.75, -1.6, -12.07),
-//        Position(21, 1.75, -1.6, -12.07),
+        Position(2, 1.75, -1.6, -22.57),
+
+        Position(3, -3.5, -1.6, -20.82),
+        Position(4, 0, -1.6, -20.82),
+        Position(5, 3.5, -1.6, -20.82),
+
+        Position(6, -5.25, -1.6, -19.07),
+        Position(7, -1.75, -1.6, -19.07),
+        Position(8, 1.75, -1.6, -19.07),
+        Position(9, 5.25, -1.6, -19.07),
+
+        Position(10, -3.5, -1.6, -17.32),
+        Position(11, 0, -1.6, -17.32),
+        Position(12, 3.5, -1.6, -17.32),
+
+        Position(13, -5.25, -1.6, -15.57),
+        Position(14, -1.75, -1.6, -15.57),
+        Position(15, 1.75, -1.6, -15.57),
+        Position(16, 5.25, -1.6, -15.57),
+
+        Position(17, -3.5, -1.6, -13.82),
+        Position(18, 0, -1.6, -13.82),
+        Position(19, 3.5, -1.6, -13.82),
+
+        Position(20, -1.75, -1.6, -12.07),
+        Position(21, 1.75, -1.6, -12.07),
     ]
     
     // MARK: Game Controller
